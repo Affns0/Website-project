@@ -1,0 +1,54 @@
+@charset "UFT-8";
+
+body{
+    height: 100vh;
+    background-color: darkblue;
+    background-image: url(image/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: white;
+
+}
+
+nav{
+    background-color: white;
+}
+
+
+article{
+    background-color: white;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
+
+aside{
+    background-color: white;
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.square{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
