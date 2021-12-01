@@ -36,9 +36,6 @@ header{
     padding-left: 20px;
     padding-top: 20px;
 }
-header > h1{
-
-}
 
 header > h2{
     font-size: 1em;
@@ -55,12 +52,15 @@ nav{
     border-bottom-right-radius: 5px;
     padding: 10px;
     box-shadow: 0px 11px 9px rgba(0, 0, 0, 0.322);
+    margin-bottom: 40px;
 }
 nav > a{
     color: var(--color0);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
+    transition-duration: .5s;
+    border-radius: 5px;
 }
 nav > a:hover{
     background-color: var(--color3);
@@ -70,6 +70,13 @@ nav > a:hover{
 main {
     padding: 20px;
 }
+main p{
+    margin: 15px 0px ;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 2em;
+}
 
 article{
     background-color: white;
@@ -77,8 +84,12 @@ article{
     padding: 20px;
     margin: auto;
     border: 1px solid darkblue;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-bottom: 30px;
+}
+
+article > h1,h2{
+    font-family: var(--featured-font);
 }
 
 aside{
@@ -87,7 +98,7 @@ aside{
     padding: 20px;
     margin: auto;
     border: 1px solid darkblue;
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -96,10 +107,39 @@ aside{
     display: inline-block;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: lightgray;
+    background-color: white;
     width: 200px;
     height: 200px;
     font-family: var(--featured-font);
+    margin: 10px;
+}
+
+div#map{
+    background-image: url(image/map.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center
+    
+}
+div#happy{
+    background-image: url(image/happy.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+div#workload{
+    background-image: url(image/workload.png);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+div > p{
+    margin-top: 3px;
+}
+
+aside > h1{
+    font-family: var(--featured-font);
+    padding: 20px;
 }
 
 footer{
