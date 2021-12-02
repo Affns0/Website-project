@@ -20,7 +20,7 @@
 
 body{
     height: 100vh;
-    background-color: darkblue;
+    background-color: rgba(0, 0, 139, 0.329);
     background-image: url(image/wallpaper002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ main p{
     text-align: justify;
     text-indent: 30px;
     font-size: 1.1em;
-    line-height: 2em;
+    line-height: 2.5em;
 }
 
 article{
@@ -83,7 +83,7 @@ article{
     max-width: 1200px;
     padding: 20px;
     margin: auto;
-    border: 1px solid darkblue;
+    border: 1px solid rgba(0, 0, 139, 0.329);
     border-radius: 10px;
     margin-bottom: 30px;
 }
@@ -93,19 +93,23 @@ article > h1,h2{
 }
 
 aside{
-    background-color: white;
     max-width: 1200px;
     padding: 20px;
     margin: auto;
-    border: 1px solid darkblue;
-    border-radius: 10px;
     text-align: center;
     margin-bottom: 30px;
+}
+aside > h1{
+    font-family: var(--featured-font);
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 139, 0.336);
 }
 
 .square{
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 139, 0.329);
     border-radius: 10px;
     background-color: white;
     width: 200px;
@@ -119,7 +123,6 @@ div#map{
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center center
-    
 }
 div#happy{
     background-image: url(image/happy.jpg);
@@ -137,14 +140,18 @@ div > p{
     margin-top: 3px;
 }
 
-aside > h1{
-    font-family: var(--featured-font);
-    padding: 20px;
-}
 
 footer{
     background-color: var(--color4);
     color: white;
-    text-align: center;
-    margin-bottom: 0px;
+    text-align: left;
+    padding: 10px;
+}
+footer > a{
+    color: rgba(255, 255, 255, 0.521);
+    padding: 10px;
+    text-decoration: none;
+}
+footer > p{
+    padding: 10px;
 }
