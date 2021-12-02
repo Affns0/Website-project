@@ -140,6 +140,21 @@ div > p{
     margin-top: 3px;
 }
 
+div.img{
+    background-image: url(image/rfid.jpg);
+    display: block;
+    border: 1px solid rgba(0, 0, 139, 0.329);
+    border-radius: 10px;
+    background-color: rgb(88, 12, 12);
+    max-width: 690px;
+    height: 220px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 footer{
     background-color: var(--color4);
