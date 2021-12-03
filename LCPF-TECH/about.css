@@ -85,12 +85,11 @@ article > h1{
 .cont{
     max-width: 1200px;
     margin: auto;
-    background: #F2F2F2;
     overflow: auto;
 }
 .galeria{
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     float: left;
 }
 .square{
