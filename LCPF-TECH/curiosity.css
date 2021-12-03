@@ -1,0 +1,154 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root{
+    --color0: #F2F2F2;
+    --color1: #66D9B8;
+    --color2: #51A696;
+    --color3: #296B73;
+    --color4: #1D4859;
+
+    --standard-font: Arial, Verdana, Helvetica, sans-serif;
+    --featured-font: 'Merriweather', serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--color1);
+    font-family: var(--standard-font);
+}
+header{
+    background-image: linear-gradient(to bottom, var(--color0), var(--color4));
+    font-family: var(--featured-font);
+    min-height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+header > h2{
+    font-size: 1em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+nav{
+    background-color: var(--color4);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 11px 9px rgba(0, 0, 0, 0.322);
+}
+nav > a{
+    color: var(--color0);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+    border-radius: 5px;
+}
+nav > a:hover{
+    background-color: var(--color3);
+    color: var(--color4);
+}
+
+main{
+    padding: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+main p{
+    margin: 15px 15px ;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 2.5em;
+}
+
+article{
+    background-color: var(--color2);
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: -20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 30px;
+}
+article > h1{
+    font-family: var(--featured-font);
+}
+
+div.history{
+    background-image: url(image/history-rfid.jpg);
+    display: block;
+    border: 1px solid rgba(0, 0, 139, 0.329);
+    border-radius: 10px;
+    background-color: rgb(88, 12, 12);
+    max-width: 690px;
+    height: 290px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+}
+div.alexander{
+    background-image: url(image/Sir-Robert-Alexander-Watson-Watt1.jpg);
+    display: block;
+    border: 1px solid rgba(0, 0, 139, 0.329);
+    border-radius: 10px;
+    background-color: rgb(88, 12, 12);
+    max-width: 700px;
+    height: 360px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+}
+div.trans{
+    background-image: url(image/image4.jpeg);
+    display: block;
+    border: 1px solid rgba(0, 0, 139, 0.329);
+    border-radius: 10px;
+    background-color: rgb(88, 12, 12);
+    max-width: 690px;
+    height: 550px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+}
+
+section{
+    background-color: var(--color0);
+    border-radius: 10px;
+}
+
+aside{
+    font-family: var(--featured-font);
+    background-color: var(--color1);
+    padding: 10px;
+    border-radius: 10px;
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    background-color: var(--color4);
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+footer > a{
+    color: rgba(255, 255, 255, 0.521);
+    padding: 10px;
+    text-decoration: none;
+}
+footer > p{
+    padding: 10px;
+}
