@@ -82,80 +82,54 @@ article > h1{
     font-family: var(--featured-font);
 }
 
-aside{
-    font-family: var(--featured-font);
-    padding: 10px;
-    text-align: center;
+.cont{
+    max-width: 1200px;
+    margin: auto;
+    background: #F2F2F2;
+    overflow: auto;
 }
-
-div{
-    display: inline-block;
+.galeria{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
 }
-
-div#square{
+.square{
     display: inline-block;
+    border: 1px solid rgba(0, 0, 139, 0.329);
     border-radius: 10px;
     background-color: white;
     width: 200px;
     height: 200px;
     font-family: var(--featured-font);
-    margin: auto;
-    margin: 50px;
+    margin: 10px;
 }
-
-div.leandro{
+#imgleandro{
     background-image: url(image/leandro.jfif);
-    display: block;
-    border-radius: 10px;
-    background-color: rgb(88, 12, 12);
-    max-width: 200px;
-    height: 210px;
-    background-size: 200px;
+    background-size: 190px;
     background-repeat: no-repeat;
-    background-position: center center;
-    margin: auto;
+    background-position: center center
 }
-div.Carline{
+#imgcarline{
     background-image: url(image/carline.jfif);
-    display: block;
-    border-radius: 10px;
-    background-color: rgb(88, 12, 12);
-    max-width: 200px;
-    height: 210px;
-    background-size: 200px;
+    background-size: 190px;
     background-repeat: no-repeat;
-    background-position: center center;
-    margin: auto;
+    background-position: center center
 }
-div.franklin{
+#imgfranklin{
     background-image: url(image/franklin.jfif);
-    display: block;
-    border-radius: 10px;
-    background-color: rgb(88, 12, 12);
-    max-width: 200px;
-    height: 210px;
-    background-size: 200px;
+    background-size: 190px;
     background-repeat: no-repeat;
-    background-position: center center;
-    margin: auto;
+    background-position: center center
 }
-div.pedro{
+#imgpedro{
     background-image: url(image/perfilID.jpg);
-    display: block;
-    border-radius: 10px;
-    background-color: rgb(88, 12, 12);
-    max-width: 200px;
-    height: 210px;
-    background-size: 200px;
+    background-size: 190px;
     background-repeat: no-repeat;
-    background-position: center center;
-    margin: auto;
+    background-position: center center
 }
-aside > h2 {
-    background-color: var(--color4);
-    color: var(--color0);
-    padding: 5px;
-    margin: -10px -10px 0px -10px;
+.desc{
+    padding: 15px;
+    text-align: center;
 }
 
 footer{
