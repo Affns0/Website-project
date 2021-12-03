@@ -20,7 +20,7 @@
 
 body{
     height: 100vh;
-    background-color: var(--color1);
+    background-color: var(--color3);
     font-family: var(--standard-font);
 }
 header{
@@ -38,8 +38,6 @@ header > h2{
 
 nav{
     background-color: var(--color4);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
     padding: 10px;
     box-shadow: 0px 11px 9px rgba(0, 0, 0, 0.322);
 }
@@ -59,6 +57,7 @@ nav > a:hover{
 main{
     padding: 20px;
     box-shadow: 5px 5px 5px black;
+    font-weight: bolder;
 }
 main p{
     margin: 15px 15px ;
@@ -69,11 +68,11 @@ main p{
 }
 
 article{
-    background-color: var(--color2);
+    background-color: var(--color0);
     max-width: 1200px;
     padding: 20px;
     margin: auto;
-    margin-top: -20px;
+    margin-top: -10px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px black;
     margin-bottom: 30px;
@@ -83,9 +82,8 @@ article > h1{
 }
 
 div.history{
-    background-image: url(image/history-rfid.jpg);
+    background-image: url(image/history.gif);
     display: block;
-    border: 1px solid rgba(0, 0, 139, 0.329);
     border-radius: 10px;
     background-color: rgb(88, 12, 12);
     max-width: 690px;
@@ -98,7 +96,6 @@ div.history{
 div.alexander{
     background-image: url(image/Sir-Robert-Alexander-Watson-Watt1.jpg);
     display: block;
-    border: 1px solid rgba(0, 0, 139, 0.329);
     border-radius: 10px;
     background-color: rgb(88, 12, 12);
     max-width: 700px;
@@ -111,7 +108,6 @@ div.alexander{
 div.trans{
     background-image: url(image/image4.jpeg);
     display: block;
-    border: 1px solid rgba(0, 0, 139, 0.329);
     border-radius: 10px;
     background-color: rgb(88, 12, 12);
     max-width: 690px;
@@ -125,17 +121,42 @@ div.trans{
 section{
     background-color: var(--color0);
     border-radius: 10px;
+    text-align: center;
+    text-align: justify;
+    box-shadow: 0px 0px 10px black;
 }
 
 aside{
     font-family: var(--featured-font);
     background-color: var(--color1);
     padding: 10px;
-    border-radius: 10px;
+    font-weight: bolder;
+}
+aside > h2 {
+    background-color: var(--color4);
+    color: var(--color0);
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+}
+aside > p{
+    text-align: center;
 }
 aside > ul{
+    list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
+}
+
+li{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+p#writer{
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.418);
+    font-size: small;
+    text-decoration: underline;
 }
 
 footer{
